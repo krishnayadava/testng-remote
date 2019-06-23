@@ -1,0 +1,12 @@
+package com.restassuredTests;
+
+public class POST_REQUEST {
+	
+	public void registerName() {
+		
+		given()
+		
+		      
+	}
+
+}

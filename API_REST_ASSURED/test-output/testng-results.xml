@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30896" started-at="2019-06-22T20:13:13Z" finished-at="2019-06-22T20:13:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30896" started-at="2019-06-22T20:13:13Z" finished-at="2019-06-22T20:13:44Z">
+      <class name="com.restassuredTests.GET_REQUEST">
+        <test-method status="PASS" signature="getWheatherDetails()[pri:0, instance:com.restassuredTests.GET_REQUEST@28864e92]" name="getWheatherDetails" duration-ms="30784" started-at="2019-06-23T01:43:13Z" finished-at="2019-06-23T01:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWheatherDetails -->
+      </class> <!-- com.restassuredTests.GET_REQUEST -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
