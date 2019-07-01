@@ -1,0 +1,21 @@
+package com.restassuredTests;
+
+import java.util.HashMap;
+
+import org.testng.annotations.BeforeClass;
+
+public class PUT_RESUEST {
+	
+	public static HashMap map=new HashMap();
+	
+	String empName=RestUtils.empName();
+	String empSalary=RestUtils.empSal();
+	String empAge=RestUtils.empName();
+	int emp_id=11254;
+	
+	@BeforeClass
+	public void putData() {
+		
+	}
+
+}

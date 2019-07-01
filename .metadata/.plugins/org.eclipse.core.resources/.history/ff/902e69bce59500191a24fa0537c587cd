@@ -1,0 +1,30 @@
+package com.restassuredTests;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+import java.util.HashMap;
+
+import org.testng.annotations.BeforeClass;
+public class POST_REQUEST {
+	
+	
+		
+		HashMap map= new HashMap();
+		
+		@BeforeClass
+		public void postdata() {
+			
+			map.put("FirstName", RestUtils.getFirstName());
+			map.put("LastName", RestUtils.getLastName());
+			map.put("UserName", RestUtils.getUserName());
+			map.put("Password", RestUtils.getPassword());
+			map.put("Email", RestUtils.emailId());
+			
+			
+		 
+		
+		
+		      
+	}
+
+}

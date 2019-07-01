@@ -1,0 +1,27 @@
+package com.serialisation.deserialsiation;
+
+import java.io.FileOutputStream;
+
+class Test{
+	
+	int i=10; int j=20;
+}
+
+
+
+
+
+
+
+public class Serialisation_and_desrialisation {
+	
+	
+	public static void main(String[] args) {
+		Test t= new Test();
+		
+		//Serialisation
+		FileOutputStream fos= new FileOutputStream("Test.txt");
+		
+	}
+
+}

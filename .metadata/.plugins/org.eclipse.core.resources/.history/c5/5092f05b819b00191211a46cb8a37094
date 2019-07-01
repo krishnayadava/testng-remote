@@ -1,0 +1,30 @@
+package com.serialisation.deserialsiation;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+
+class Test{
+	
+	int i=10; int j=20;
+}
+
+
+
+
+
+
+
+public class Serialisation_and_desrialisation {
+	
+	
+	public static void main(String[] args) throws FileNotFoundException {
+		Test t= new Test();
+		
+		//Serialisation
+		FileOutputStream fos= new FileOutputStream("Test.txt");
+		ObjectOutputStream oos=new ObjectOutputStream(fos);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.serialisation.deserialsiation;
+
+import java.util.HashMap;
+
+public class StudentTest_Without_Serialisation {
+	
+	public static HashMap map=new HashMap();
+	
+	
+	//Put request creates new request in student record
+	@Test
+	public void CreateNewStudent() {
+		
+	}
+
+}

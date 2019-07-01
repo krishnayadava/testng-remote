@@ -1,0 +1,10 @@
+package com.restassuredTests;
+
+import org.testng.annotations.BeforeClass;
+
+public class PUT_RESUEST {
+	
+	@BeforeClass
+	public void putData()
+
+}

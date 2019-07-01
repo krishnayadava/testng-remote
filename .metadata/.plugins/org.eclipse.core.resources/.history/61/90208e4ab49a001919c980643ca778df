@@ -1,0 +1,22 @@
+package com.restassuredTests;
+
+import org.testng.annotations.Test;
+
+import com.jayway.restassured.response.Response;
+
+public class DELETE_REQUEST {
+	
+	@Test
+	public void deleteEmployeeRecord() {
+		
+		Response response=
+				
+				given()
+				
+				.when()
+				
+				.
+		
+	}
+
+}

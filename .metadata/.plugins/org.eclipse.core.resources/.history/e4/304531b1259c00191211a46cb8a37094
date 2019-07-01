@@ -1,0 +1,5 @@
+package com.serialisation.deserialsiation;
+
+public class StudentTest_Without_Serialisation {
+
+}

@@ -1,0 +1,30 @@
+package com.serialisation.deserialsiation;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import org.testng.annotations.Test;
+public class StudentTest_Without_Serialisation {
+	
+	public static HashMap map=new HashMap();
+	
+	
+	//Put request creates new request in student record
+	@Test
+	public void CreateNewStudent() {
+		
+		map.put("id", 101);
+		map.put("FirstName", "krishna");
+		map.put("lastname", "kumar");
+		map.put("email", "zxcv@gmail.com");
+		map.put("programme" ,"manager");
+		
+		
+		ArrayList<String> courseList= new ArrayList<String>();
+		
+		courseList.add("JAVA");
+		courseList.add("Selenium");
+		
+		
+	}
+
+}

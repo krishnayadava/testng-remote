@@ -1,0 +1,31 @@
+package com.restassuredTests;
+
+import org.testng.annotations.Test;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+import io.restassured.response.Response;
+
+
+
+public class DELETE_REQUEST {
+	
+	@Test
+	public void deleteEmployeeRecord() {
+		
+		Response response=
+				
+				given()
+				
+				.when()
+				
+				   .delete("http://dummy.restapiexample.com/api/v1/delete/11254")
+				.then()
+				
+				
+				
+				
+		
+	}
+
+}

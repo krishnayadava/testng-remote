@@ -1,0 +1,31 @@
+package com.restassuredTests;
+
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
+
+public class Basic_Validation_XML {
+	
+	//verifying single content in XML response
+	@Test
+	public void putTest() {
+		given()
+		.contentType("application/json")
+		.body(map)
+		
+		.when()
+		
+		      .put("http://thomas-bayer.com/sqlrest/CUSTOMER/15/")
+		
+		.then()
+		
+		      
+		 
+	}
+
+
+
+	
+	
+
+}

@@ -1,0 +1,26 @@
+package com.restassuredTests;
+
+import org.testng.annotations.Test;
+
+import io.restassured.response.Response;
+
+
+
+public class DELETE_REQUEST {
+	
+	@Test
+	public void deleteEmployeeRecord() {
+		
+		Response response=
+				
+				given()
+				
+				.when()
+				
+				.delete()
+				
+				
+		
+	}
+
+}

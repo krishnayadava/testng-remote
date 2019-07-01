@@ -1,0 +1,33 @@
+package com.restassuredTests;
+
+import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+
+import org.testng.annotations.Test;
+
+public class Basic_Validation_XML {
+	
+	//verifying single content in XML response
+	@Test
+	public void putTest() {
+		given()
+	
+		.when()
+		
+		      .put("http://thomas-bayer.com/sqlrest/CUSTOMER/15/")
+		
+		.then()
+		 
+		      .body("CUSTOMER.ID", equalTo("15"));
+		      
+		 
+	}
+
+
+
+}
+	
+
+}
