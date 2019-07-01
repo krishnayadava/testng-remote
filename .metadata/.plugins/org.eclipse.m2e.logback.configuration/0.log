@@ -1056,3 +1056,4 @@
 2019-07-01 23:26:19,859 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-07-01 23:26:19,860 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Abhinav\Desktop\TES\API_REST_ASSURED\src\main\resources
 2019-07-01 23:26:19,865 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-01 23:26:19,867 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Abhinav\Desktop\TES\API_REST_ASSURED\src\test\resources
