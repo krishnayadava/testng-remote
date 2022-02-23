@@ -15,7 +15,7 @@
   </properties>
 
   <dependencies>
-  <!-- hs://.com/artifact/io.rest-assured/rest-assured -->
+  <!-- hs://kmyyyy.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>rest-assured</artifactId>
