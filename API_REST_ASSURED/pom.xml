@@ -15,7 +15,7 @@
   </properties>
 
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+  <!-- hs://.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>rest-assured</artifactId>
@@ -38,7 +38,7 @@
     <artifactId>testng</artifactId>
     <version>6.9.4</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.hamcrest/java-hamcrest -->
+<!-- https://mvn.com/artifact/org.hamcrest/java-hamcrest -->
 <dependency>
     <groupId>org.hamcrest</groupId>
     <artifactId>java-hamcrest</artifactId>
