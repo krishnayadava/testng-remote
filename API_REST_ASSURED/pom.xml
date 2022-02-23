@@ -38,7 +38,7 @@
     <artifactId>testng</artifactId>
     <version>6.9.4</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.hamcrest/java-hamcrest -->
+<!-- https://mvn.com/artifact/org.hamcrest/java-hamcrest -->
 <dependency>
     <groupId>org.hamcrest</groupId>
     <artifactId>java-hamcrest</artifactId>
